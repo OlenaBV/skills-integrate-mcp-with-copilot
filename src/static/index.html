@@ -16,6 +16,14 @@
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
+        <div id="toolbar">
+          <input type="text" id="search-input" placeholder="Search activities..." />
+          <select id="sort-select">
+            <option value="name">Sort by Name</option>
+            <option value="schedule">Sort by Time</option>
+            <option value="spots">Sort by Availability</option>
+          </select>
+        </div>
         <div id="activities-list">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>
